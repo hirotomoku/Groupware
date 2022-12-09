@@ -12,10 +12,10 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
 }
-.img1{
+.img{
 	position:absolute;
-    top: 0%;
-    left: 80%;
+    top: 5%;
+    left: 70%;
 
 
 }
