@@ -1,0 +1,116 @@
+@charset "UTF-8" ;
+
+table{
+	width:427.5px;
+	margin-top:30px;
+	margin-bottom:20px ;
+	margin-left:auto;
+	margin-right:auto;
+	border-collapse:collapse;
+	
+}
+
+:focus {
+    outline: none;
+}
+
+.cell1{
+	background-color:rgb(214, 219, 224);
+	border: 1px solid rgb(214, 219, 224);
+	height:40px;
+	width:100px;
+	font-family: Impact;
+	color:DarkSlateGray;
+	font-size:1.6rem;
+}
+
+.cell2{
+	background-color:white;
+	border: 1px solid rgb(214, 219, 224);
+	height:40px;
+}
+.cell2 > input{
+	border:none;
+	width:326px;
+	font-size:2.2rem;
+}
+
+
+
+.wrap{
+	margin-top:25px;
+	margin-bottom:0;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+}
+
+.wrap2{
+	margin-top:30px;
+	margin-bottom:20px ;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+}
+
+.wrap2 > a{
+	font-size: 13px;
+}
+
+.wrap3{
+	margin-top:60px;
+	font-size: 11px;
+	color:grey;
+}
+
+.loginbutton{
+	width:427.5px;
+	height:40px;
+	background-color:DarkSlateGray;
+	color:white;
+	text-align:center;
+	border:none;
+	font-family: Impact;
+	font-size:2rem;
+}
+
+.space{
+	height:15px;
+}
+
+#modal-content {
+	width: 450px ;
+	margin: 0 ;
+	padding: 0 ;
+	border: 2px solid #aaa ;
+	background: #fff ;
+	position: fixed ;
+	display: none ;
+	z-index: 2 ;
+	text-align: center;
+}
+  
+#modal-overlay {
+	z-index: 1 ;
+	display: none ;
+	position: fixed ;
+	top: 0 ;
+	left: 0 ;
+	width: 100% ;
+	height: 120% ;
+	background-color: rgba( 0,0,0, 0.75 ) ;
+}
+
+.button-link {
+	color: #00f ;
+	text-decoration: underline ;
+}
+ 
+.button-link:hover {
+	cursor: pointer ;
+	color: #f00 ;
+}
+
+.loginlogo{
+	width: 95%;
+}

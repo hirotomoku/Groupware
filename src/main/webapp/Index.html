@@ -4,16 +4,53 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link rel="stylesheet" type="text/css" href="css/Index.css">
+<link rel="stylesheet" type="text/css" href="css/logintest.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="javascript/subwindow.js"></script>
 </head>
 <body>
 	<p class ="img">
-	<img class="title2"src="img/title3.png">
+	<img class="title2"src="img/title5.png">
 	</p>
-	<a href="" class="btn btn-border">Good Morning！</a>
+	<!-- <p class ="img2">
+	<img class="logo1"src="img/thankyou.png">
+	</p> -->
+	<a type="button" class="btn btn-border" id="modal-open">Good Morning！</a>
 	<div id="video-area">
 	<video id="video" poster="img/movie.jpg" webkit-playsinline playsinline muted autoplay loop>
 	<source src="video/movie1.mp4" type="video/mp4">
 	</video>
+	</div>
+	<div id="modal-content">
+		<form action="/javaweb/register" method="post">
+		<p class="wrap">
+			<img src="img/logo7.png" class="loginlogo">
+		</p>
+		 <table>
+		    <tr>
+		      <td class="cell1">LoginID</td>
+		      <td class="cell2"><input type="text" name="id"></td>
+		    </tr>
+		    <tr class="space">
+		      <td colspan="2"></td>
+		    </tr>
+		    <tr>
+		      <td class="cell1">Password</td>
+		      <td class="cell2"><input type="password" name="id"></td>
+		    </tr>
+		    <tr class="space">
+		      <td colspan="2"></td>
+		    </tr>
+		  </table>
+		  <p class="wrap">
+		      <input class ="loginbutton" type="submit" value="L o g i n">
+		  </p>
+		  <p class="wrap2">
+			<a href="">パスワードを忘れた方はこちら</a>
+		  </p>
+		  <p class="wrap3">Copyright 🄫 Lazy Dogs Co., Ltd. ALL Rights Reserved.</p>
+		</form>
+	</div>
 	
 </body>
 </html>
